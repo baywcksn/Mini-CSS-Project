@@ -16,10 +16,34 @@
     background-repeat: no-repeat;
 }
 
-h1 {
+.hero-wrapper {
     color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
-p {
+.hero-wrapper h1 {
     color: white;
+    font-size: 70px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.hero-wrapper p {
+    color: white;
+    text-align: center;
+}
+
+.hero-wrapper.form-code {
+    display: block;
+    width: 100%;
+    margin-left: 250px;
+}
+
+.hero-wrapper.form-code input {
+    border-radius: 30px;
+    height: 50px;
+    width: 80%;
 }
