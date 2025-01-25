@@ -62,9 +62,15 @@
     border-radius: 30px;
     margin-top: 50px;
     margin-left: 90px;
+    font-weight: bold;
     animation: 0.5;
-    background-color: red;
+    background-color: white;
     text-align: center;
     border: none;
     outline: none;
+}
+
+.hero-wrapper .form-code button:hover {
+    background-color: transparent;
+    border: 2px solid black;
 }
