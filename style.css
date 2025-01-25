@@ -40,7 +40,7 @@
 .hero-wrapper .form-code {
     display: block;
     width: 100%;
-    margin-left: 190px;
+    margin-left: 210px;
     margin-top: 50px;
 }
 
@@ -57,7 +57,7 @@
 }
 
 .hero-wrapper .form-code button {
-    width: 200px;
+    width: 230px;
     height: 50px;
     border-radius: 30px;
     margin-top: 50px;
@@ -73,4 +73,19 @@
 .hero-wrapper .form-code button:hover {
     background-color: transparent;
     border: 2px solid black;
+}
+
+/* Product List */
+
+.product {
+    width: 80%;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.product-list {
+    margin-top: 50px;
+    float: left;
+    width: 33.33%;
 }
